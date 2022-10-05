@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./table.css">
+    <title>Tablas</title>
+</head>
+<body>
+    <!-- Para crear una tabla -->
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Programa</th>
+            </tr>
+        </thead>
+
+        <!-- div qu contiene los datos de la tabla -->
+        <tbody id="tableContent">
+            <tr>
+                <td>Jordan</td>
+                <td>5</td>
+                <td>ISC</td>
+            </tr>
+
+            <tr>
+                <td>Fernanda</td>
+                <td>20</td>
+                <td>ISC</td>
+            </tr>
+        </tbody>
+        <input type="text" id="inpName">
+        <button id="btn">Cargar</button>
+        
+        <!-- se pone hasta el ultimo para que no tarde en cargar tanto la pagina -->
+        <script src="table.js"></script>
+
+    </table>
+</body>
+</html>
